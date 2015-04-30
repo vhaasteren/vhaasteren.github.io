@@ -1,0 +1,14 @@
+{% include header.html %}
+
+
+    <!-- Page Content -->
+    <!-- <div class="container"> -->
+    <div id="main_content_wrap" class="outer">
+
+		{{ content }}
+
+    </div>
+    <!-- /.container -->
+
+
+{% include footer.html %}
