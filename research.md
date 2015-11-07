@@ -3,4 +3,10 @@ title: Research
 layout: default
 ---
 
-# Under Construction!
+# Pulsar Timing
+
+# Gravitational Wave detection
+
+# Bayesian analysis
+
+# Sampling methods
