@@ -18,7 +18,7 @@ pages_list:
     Research: '/research'
     Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
     Publications: '/publications'
-    Blog: '/blog'
+    #Blog: '/blog'
 
 defaults:
   -
