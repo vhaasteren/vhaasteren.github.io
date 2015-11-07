@@ -1,5 +1,5 @@
-name: Justin A Ellis
-description: Justin's Website
+name: Rutger van Haasteren
+description: Rutger's Website
 
 url: "[http://localhost:4000]"
 
@@ -10,13 +10,13 @@ permalink: pretty
 highlighter: pygments
 
 footer-links:
-    twitter: justinellis18
-    facebook: justin.ellis.7967
-    github: jellis18
+    facebook: rutger.vanhaasteren
+    github: vhaasteren
+    #twitter: justinellis18
 
 pages_list:
     Research: '/research'
-    Cirriculum Vitae: '/files/cv.pdf'
+    Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
     Publications: '/publications'
     Blog: '/blog'
 
