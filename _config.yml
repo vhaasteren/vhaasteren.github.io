@@ -1,5 +1,5 @@
 name: Rutger van Haasteren
-description: Rutger's Website
+description: Rutger's Website & Blog
 
 url: "[http://localhost:4000]"
 
@@ -12,13 +12,12 @@ highlighter: pygments
 footer-links:
     facebook: rutger.vanhaasteren
     github: vhaasteren
-    #twitter: justinellis18
 
 pages_list:
     Research: '/research'
     Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
     Publications: '/publications'
-    #Blog: '/blog'
+    Blog: '/blog'
 
 defaults:
   -
