@@ -1,11 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
 name: Rutger van Haasteren
 description: Rutger's Website & Blog
 
@@ -18,17 +10,18 @@ permalink: pretty
 highlighter: pygments
 
 footer-links:
-  facebook: rutger.vanhaasteren
-  github: vhaasteren
+    facebook: rutger.vanhaasteren
+    github: vhaasteren
 
 pages_list:
-  Research: '/research'
-  Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
-  Publications: '/publications'
-  Blog: '/blog'
+    Research: '/research'
+    Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
+    Publications: '/publications'
+    Blog: '/blog'
 
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
+  -
+    scope:
+        path: "" # an empty string here means all files in the project
     values:
-      layout: "default"
+        layout: "default"
