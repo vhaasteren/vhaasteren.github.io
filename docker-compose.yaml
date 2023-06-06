@@ -1,0 +1,29 @@
+# docker-compose.yml
+version: '3.5'
+
+services:
+
+  jekyll:
+    build:
+      context: .
+      dockerfile: ./jekyll-docker/Dockerfile
+    
+    container_name: jekyll
+    hostname: jekyll
+    restart: unless-stopped
+    ports:
+      - '4000:4000'
+
+    volumes:
+      - .:/srv/jekyll
+    
+    networks:
+      - jekyll-network
+
+    command: jekyll serve --trace --force_polling -H 0.0.0.0
+
+
+networks:
+
+    jekyll-network:
+        driver: bridge

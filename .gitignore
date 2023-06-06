@@ -1,1 +1,34 @@
-~*
+# Jekyll build directory
+/_site
+
+# Jekyll cache directory
+/.jekyll-cache
+
+# Jekyll metadata file
+/.jekyll-metadata
+
+# Bundle directory
+/vendor/bundle/
+
+# Jekyll Notebook Converter tempfiles
+/_ipynb_tmp/
+
+# If using macOS, also include:
+.DS_Store
+
+# If using a Jupyter notebook, also include:
+.ipynb_checkpoints
+
+# Other common files to ignore
+*.log
+*.pyc
+*.swp
+*.bak
+*.tmp
+
+# Vim files
+*~
+
+chatgpt
+old-website
+_plugins_notused
