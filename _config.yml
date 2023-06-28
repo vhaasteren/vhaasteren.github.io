@@ -26,6 +26,7 @@ footer-links:
 
 pages_list:
   Research: '/research'
+  Resume: '/files/resume_vanhaasteren.pdf'
   Cirriculum Vitae: '/files/cv_vanhaasteren.pdf'
   Publications: '/publications'
   Blog: '/blog'
